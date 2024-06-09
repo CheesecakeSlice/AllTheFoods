@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "all-the-foods",
+	"version": "${version}",
+	"name": "All The Foods",
+	"description": "This is a food overhaul mod for Minecraft 1.20.x. Bringing unique food recipes and farming to new heights",
+	"authors": [
+		"CheesecakeSlice"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/all-the-foods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cheesecakeslice.allthefoods.AllTheFoods"
+		],
+		"client": [
+			"net.cheesecakeslice.allthefoods.AllTheFoodsClient"
+		],
+		"fabric-datagen": [
+			"net.cheesecakeslice.allthefoods.AllTheFoodsDataGenerator"
+		]
+	},
+	"mixins": [
+		"all-the-foods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
