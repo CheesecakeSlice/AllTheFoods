@@ -1,5 +1,6 @@
 package net.cheesecakeslice.allthefoods;
 
+import net.cheesecakeslice.allthefoods.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class AllTheFoods implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
