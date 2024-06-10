@@ -17,7 +17,11 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
 
+	//REI
 	maven { url "https://maven.shedaniel.me" }
+	//AppelSkin
+	maven { url "https://maven.ryanliptak.com/" }
+	maven { url "https://maven.shedaniel.me/" }
 }
 
 fabricApi {
@@ -33,8 +37,18 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	//REI
 	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:13.1.719"
 	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:13.1.719"
+
+	//AppleSkin
+
+	modCompileOnly("squeek.appleskin:appleskin-fabric:mc1.20.2-2.5.1:api") {
+		transitive = false
+	}
+	modRuntimeOnly("squeek.appleskin:appleskin-fabric:mc1.20.2-2.5.1") {
+		exclude module: 'modmenu'
+	}
 }
 
 processResources {

@@ -26,6 +26,9 @@
 		],
 		"rei_client": [
 			"net.cheesecakeslice.allthefoods.compat.AllTheFoodsREIClientPlugin"
+		],
+		"appleskin": [
+			"net.cheesecakeslice.allthefoods.compat.AppleSkinEventHandler"
 		]
 	},
 	"mixins": [
