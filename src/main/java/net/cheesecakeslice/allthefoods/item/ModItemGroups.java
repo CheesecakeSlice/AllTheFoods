@@ -15,6 +15,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ATF"))
                     .icon(() -> new ItemStack(ModItems.TOAST)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TOAST);
+                        entries.add(ModItems.DRIEDSWEETBERRIES);
                     }).build());
     public static void registerItemGroups(){
         AllTheFoods.LOGGER.info("Registering Item Group for " + AllTheFoods.MOD_ID);

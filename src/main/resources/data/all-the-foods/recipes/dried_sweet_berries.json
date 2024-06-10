@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 145,
+  "experience": 0.25,
+  "ingredient": {
+    "item": "minecraft:sweet_berries"
+  },
+  "result": "all-the-foods:driedsweetberries"
+}
