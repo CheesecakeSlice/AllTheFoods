@@ -14,7 +14,7 @@ public class ModItems {
 
     public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings().food(ModFoodComponents.TOAST)));
     public static final  Item DRIEDSWEETBERRIES = registerItem("driedsweetberries", new Item(new FabricItemSettings().food(ModFoodComponents.DRIEDSWEETBERRIES)));
-    public static final Item BORSCHT = registerItem("borscht", new Item(new FabricItemSettings().food(ModFoodComponents.BORSCHT)));
+    public static final Item BORSCHT = registerItem("borscht", new Item(new FabricItemSettings().food(ModFoodComponents.BORSCHT).maxCount(8)));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(TOAST);
