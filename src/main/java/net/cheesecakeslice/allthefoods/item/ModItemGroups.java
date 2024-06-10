@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TOAST)).entries((displayContext, entries) -> {
                         entries.add(ModItems.TOAST);
                         entries.add(ModItems.DRIEDSWEETBERRIES);
+                        entries.add(ModItems.BORSCHT);
                     }).build());
     public static void registerItemGroups(){
         AllTheFoods.LOGGER.info("Registering Item Group for " + AllTheFoods.MOD_ID);
