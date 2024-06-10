@@ -1,3 +1,5 @@
 {
-"item.all-the-foods.toast": "Toast"
+  "item.all-the-foods.toast": "Toast",
+
+  "itemgroup.ATF": "All The Foods"
 }

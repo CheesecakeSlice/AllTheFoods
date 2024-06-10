@@ -1,5 +1,6 @@
 package net.cheesecakeslice.allthefoods;
 
+import net.cheesecakeslice.allthefoods.item.ModItemGroups;
 import net.cheesecakeslice.allthefoods.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,7 @@ public class AllTheFoods implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
