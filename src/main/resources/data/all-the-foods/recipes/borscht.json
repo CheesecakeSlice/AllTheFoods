@@ -1,15 +1,21 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "food",
-  "ingredients": {
-    "item": "minecraft:beetroot",
-    "item": "minecraft:beetroot",
-    "item": "minecraft:beetroot",
-    "item": "minecraft:potato",
-    "item": "minecraft:potato",
-    "item": "minecraft:cooked_beef",
-    "item": "minecraft:bowl"
-
-  },
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot",
+      "count": "3"
+    },
+    {
+      "item": "minecraft:potato",
+      "count": "2"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
   "result": "all-the-foods:borscht"
 }
