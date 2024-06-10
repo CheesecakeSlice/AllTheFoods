@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings()));
+    public static final  Item DRIEDSWEETBERRIES = registerItem("driedsweetberries", new Item(new FabricItemSettings()));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(TOAST);
+        entries.add(DRIEDSWEETBERRIES);
     }
 
     private static Item registerItem(String name, Item item){
