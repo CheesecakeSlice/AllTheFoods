@@ -6,10 +6,5 @@
   "ingredient": {
     "item": "minecraft:apple"
   },
-  "result": [
-    {
-      "Item": "all-the-foods:sauteedapples",
-      "count": 2
-    }
-  ]
+  "result": "all-the-foods:sauteedapples"
 }
