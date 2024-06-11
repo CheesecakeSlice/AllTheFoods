@@ -17,6 +17,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TOAST);
                         entries.add(ModItems.DRIEDSWEETBERRIES);
                         entries.add(ModItems.BORSCHT);
+                        entries.add(ModItems.SAUTEEDAPPLES);
                     }).build());
     public static void registerItemGroups(){
         AllTheFoods.LOGGER.info("Registering Item Group for " + AllTheFoods.MOD_ID);

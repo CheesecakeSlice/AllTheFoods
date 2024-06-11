@@ -15,11 +15,13 @@ public class ModItems {
     public static final Item TOAST = registerItem("toast", new Item(new FabricItemSettings().food(ModFoodComponents.TOAST)));
     public static final  Item DRIEDSWEETBERRIES = registerItem("driedsweetberries", new Item(new FabricItemSettings().food(ModFoodComponents.DRIEDSWEETBERRIES)));
     public static final Item BORSCHT = registerItem("borscht", new Item(new FabricItemSettings().food(ModFoodComponents.BORSCHT).maxCount(8)));
+    public static final Item SAUTEEDAPPLES = registerItem("sauteedapples", new Item(new FabricItemSettings().food(ModFoodComponents.SAUTEEDAPPLES).maxCount(16)));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(TOAST);
         entries.add(DRIEDSWEETBERRIES);
         entries.add(BORSCHT);
+        entries.add(SAUTEEDAPPLES);
     }
 
     private static Item registerItem(String name, Item item){

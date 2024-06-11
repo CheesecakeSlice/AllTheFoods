@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "all-the-foods:item/apple_slice"
+  }
+}

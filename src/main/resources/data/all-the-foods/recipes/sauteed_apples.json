@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 130,
+  "experience": 0.18,
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": [
+    {
+      "Item": "all-the-foods:sauteedapples",
+      "count": 2
+    }
+  ]
+}
